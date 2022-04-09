@@ -9,8 +9,8 @@ Before you start anything, you must download Visual Studios on your computer.
 
 ### Remotely Connecting
 The next step is connceting our computer/machine to a remote computer over the Internet.  
-1. First step is getting your course-specific account for CSE15L here: [your specific acount](https://sdacs.ucsd.edu/~icc/index.php) 
+1. First step is getting your course-specific account for CSE15L here: [your specific account](https://sdacs.ucsd.edu/~icc/index.php) 
 2. After you have your course-specific account, you are going to open up terminal in Visual Studio Code 
 3. The command that you will write in the terminal should look like this: $ ssh cs15lsp22agk@ieng6.ucsd.edu Replace right before the @ symbol with your course-specific account
-4. Once you press enter, you may be receiving messages (if it's your first time), type in yes and press enter then give your password. You should see something like this in your terminal [Image of the interaction in your terminal]()
+4. Once you press enter, you may be receiving messages (if it's your first time), type in yes and press enter then give your password. You should see something like this in your terminal [Image of the interaction in your terminal](https://github.com/rachelli23/cse15l-lab-reports/blob/main/Screen%20Shot%202022-04-09%20at%201.43.48%20PM.png)
 
