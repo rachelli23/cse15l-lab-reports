@@ -42,6 +42,10 @@ class WhereAmI {
 3. After compiling it and running, write this in your terminal scp WhereAmI.java cs15lsp22agk@ieng6.ucsd.edu:~/ (remember to replace before the @ symbol with your course-specific account. 
 4. Now you should see it asking for your password (write your password) then go to/log into ieng6 (the server) with ssh again and use ls. You should view the file that you created in the home directory. 
 5. Once you see it in you home directory, you can run it using javac and java like in step 2 (above) on the ieng6 (the server the CSE basement computer)
-The following image is what your terminal should look like successfully using ssh ![image for part 6a](part2.png)
+
+The following image is what your terminal should look like successfully using ssh ![image for part 6a](part6a.png)
+
+The following image is what your terminal should look like successfully using scp ![image for part 6b](part6.png)
+
 
 
