@@ -1,29 +1,19 @@
 # Week 2 Lab Report by Rachelle Kanounji
 
 ### Installing VScode
-Before you start anything, you must download Visual Studios on your computer. 
-
-1. First go to to the [Visual Studio code website](https://code.visualstudio.com/) and then install the version you have for your computer. I downloaded and installed the one for mac.
-2. Once it successfully installs you should see something like this ![Image of VSCode](Screen%20Shot%202022-04-01%20at%202.16.41%20PM.png)
-3. Once you see this image you successfully downloaded Visual Studios Code and you can now start! 
+Before you start anything, you must download Visual Studios on your computer, which you can go on [Visual Studio code website](https://code.visualstudio.com/) and download the version you need. The image below is what Visual Studios Code looks like successfully downloaded. 
+ ![Image of VSCode](Screen%20Shot%202022-04-01%20at%202.16.41%20PM.png)
 
 ### Remotely Connecting
-The next step is connceting our computer/machine to a remote computer over the Internet.  
-1. First step is getting your course-specific account for CSE15L here: [your specific account](https://sdacs.ucsd.edu/~icc/index.php) 
-2. After you have your course-specific account, you are going to open up terminal in Visual Studio Code 
-3. The command that you will write in the terminal should look like this: $ ssh cs15lsp22agk@ieng6.ucsd.edu Replace right before the @ symbol with your course-specific account
-4. Once you press enter, you may be receiving messages (if it's your first time), type in yes and press enter then give your password. You should see something like this in your terminal ![image for part 2](part2.png)
-5. Your computer is now connected to another computer in the CSE basement. Meaning anything you run/write a command in the terminal will run on the other computer. Your computer is the client while the other computer in the CSE basement is the server. 
+1. Write in the terminal $ ssh <course specific account>@ieng6.ucsd.edu
+2. Type in yes, if you recieved messages and give password when asked 
+ You should see something like this in your terminal ![image for part 2](part2.png)
+
 
 ### Trying Some Commands
-Now try some commands in your terminal. 
- * cd (Changes directory, meaning it will change the directory to the specific input you give)
- * ls (This lists all the files in the current directory)
- * Cd ~ (Similar to cd it changes the current directory to main)
- * mkdir (Creates a new directory with a name you give) 
- * Cat (Concatenate files, creates multiple or single files, lets you view whats on the file, and redirects the output to the terminal or to files)
- * rm -r (Removes a directory, you have to put the name of the directory you want to remove after the "-r" with a space in between) 
- * exit (Terminates session)
+      
+Now try some commands in your terminal. I tried ls which lists all the files in the current directory. The image shows running the command ls my terminal ![image for part 2](part2.png)
+
 
 ### Moving Files with scp
 In order to copy a file or files, we must use the command scp. We will run it on our computer (the client) and we will always run it from the client. 
@@ -43,9 +33,17 @@ class WhereAmI {
 4. Now you should see it asking for your password (write your password) then go to/log into ieng6 (the server) with ssh again and use ls. You should view the file that you created in the home directory. 
 5. Once you see it in you home directory, you can run it using javac and java like in step 2 (above) on the ieng6 (the server the CSE basement computer)
 
-The following image is what your terminal should look like successfully using ssh ![image for part 6a](part6a.png)
+The following image is what your terminal should look like successfully using ssh ![image for part 5a](part6a.png)
 
-The following image is what your terminal should look like successfully using scp ![image for part 6b](part6.png)
+The following image is what your terminal should look like successfully using scp ![image for part 5b](part6.png)
+
+### Setting an SSH Key
+To fix wasting time on entering your password everytime, we will be using ssh keys. 
+1. Go to your computer's (the client) terminal and run $ ssh-keygen and press enter until you see "Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa" here for username you will add the username from your computer. Then continue to press enter (do not type anything) and you should see the key's randomart image in your terminal. 
+2.  Now you need to copy the public key to the .ssh directory of your user account on the server.
+
+
+
 
 
 
