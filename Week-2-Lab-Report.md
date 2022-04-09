@@ -1,4 +1,4 @@
-# Week 2 Lab Report 
+# Week 2 Lab Report by Rachelle Kanounji
 
 ### Installing VScode
 Before you start anything, you must download Visual Studios on your computer. 
