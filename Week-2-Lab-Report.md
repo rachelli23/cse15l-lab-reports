@@ -12,35 +12,22 @@ Before you start anything, you must download Visual Studios on your computer, wh
 
 ### Trying Some Commands
       
-Now try some commands in your terminal. I tried ls which lists all the files in the current directory. The image shows running the command ls my terminal ![image for part 2](part2.png)
+Now try some commands in your terminal. I tried ls which lists all the files in the current directory. The image shows running the command ls in my terminal ![image for part 3](ls.png)
 
 
 ### Moving Files with scp
-In order to copy a file or files, we must use the command scp. We will run it on our computer (the client) and we will always run it from the client. 
-1. First step is to create a new file called WhereAmI.Java 
-      In this file, you will have the following contents in it: 
-class WhereAmI {
-  public static void main(String[] args) {
-    System.out.println(System.getProperty("os.name"));
-    System.out.println(System.getProperty("user.name"));
-    System.out.println(System.getProperty("user.home"));
-    System.out.println(System.getProperty("user.dir"));
-  }
-}
-
-2. Now in terminal write javac WhereAmI.java (press enter) and then write java WhereAmI to run it 
-3. After compiling it and running, write this in your terminal scp WhereAmI.java cs15lsp22agk@ieng6.ucsd.edu:~/ (remember to replace before the @ symbol with your course-specific account. 
-4. Now you should see it asking for your password (write your password) then go to/log into ieng6 (the server) with ssh again and use ls. You should view the file that you created in the home directory. 
-5. Once you see it in you home directory, you can run it using javac and java like in step 2 (above) on the ieng6 (the server the CSE basement computer)
-
+In Visual Studio Code create a new file with content in it and then compile and run. Once it run write in the terminal  scp <the file name> <course specific account>@ieng6.ucsd.edu:~/ and then enter your password when asked. Once it's in your home directory, then do the same steps to run it in the server.  
 The following image is what your terminal should look like successfully using ssh ![image for part 5a](part6a.png)
 
 The following image is what your terminal should look like successfully using scp ![image for part 5b](part6.png)
 
 ### Setting an SSH Key
-To fix wasting time on entering your password everytime, we will be using ssh keys. 
-1. Go to your computer's (the client) terminal and run $ ssh-keygen and press enter until you see "Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa" here for username you will add the username from your computer. Then continue to press enter (do not type anything) and you should see the key's randomart image in your terminal. 
-2.  Now you need to copy the public key to the .ssh directory of your user account on the server.
+ 1. To not have to continously enter your password, on the client (your computer) run $ ssh-keygen and continue to press enter 
+2. Once you see key's randomart image in the terminal, run $ ssh <course specific account>@ieng6.ucsd.edu and enter password (in client) then on server run $ mkdir .ssh and finally run $ scp /Users/<user-name>/.ssh/id_rsa.pub <course specific account>@ieng6.ucsd.edu:~/.ssh/authorized_keys (in client). 
+Here's the new login without password ![image for part 3](ls.png)
+ 
+
+
 
 
 
