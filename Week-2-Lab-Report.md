@@ -12,7 +12,8 @@ Before you start anything, you must download Visual Studios on your computer, wh
 
 ### Trying Some Commands
       
-Now try some commands in your terminal. I tried ls which lists all the files in the current directory. The image shows running the command ls in my terminal ![image for part 3](ls.png)
+Now try some commands in your terminal. I tried ls which lists all the files in the current directory. The image shows running the command ls in my terminal 
+ ![image for part 3](ls.png)
 
 
 ### Moving Files with scp
@@ -27,7 +28,9 @@ The following image is what your terminal should look like successfully using sc
 Here's what it looks likw with SSH keys ![image for part 6](part66.png)
  
 ### Optimizing Remote Running
-
+1. At the end of of an ssh command, write in quotes a command, in order to run in on the remote server and then exit (which you can write/command exit in the terminal). 
+2. Then write in the terminal compling and running your file. 
+ ![image for part 7](part7.png)
  
  
  
