@@ -27,7 +27,7 @@ The following image is what your terminal should look like successfully using sc
 ### Setting an SSH Key
  1. To not have to continously enter your password, on the client (your computer) run $ ssh-keygen and continue to press enter 
  2. Once you see key's randomart image in the terminal, run $ ssh (course specific account)@ieng6.ucsd.edu and enter password (in client) then on server run $ mkdir .ssh and finally run $ scp /Users/<user-name>/.ssh/id_rsa.pub (course specific account)@ieng6.ucsd.edu:~/.ssh/authorized_keys (in client). 
-Here's what it looks like with SSH keys ![image for part 6](part66.png)
+Here's what it looks like with SSH keys ![image for part 6](actual6.png)
  
 ### Optimizing Remote Running
 1. At the end of of an ssh command, write in quotes a command, in order to run in on the remote server and then exit (which you can write/command exit in the terminal). 
