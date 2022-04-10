@@ -13,11 +13,13 @@ Before you start anything, you must download Visual Studios on your computer, wh
 ### Trying Some Commands
       
 Now try some commands in your terminal. I tried ls which lists all the files in the current directory. The image shows running the command ls in my terminal 
+
  ![image for part 3](ls.png)
 
 
 ### Moving Files with scp
 In Visual Studio Code create a new file with content in it and then compile and run. Once it run write in the terminal  scp <the file name> <course specific account>@ieng6.ucsd.edu:~/ and then enter your password when asked. Once it's in your home directory, then do the same steps to run it in the server.  
+ 
 The following image is what your terminal should look like successfully using ssh ![image for part 5a](part6a.png)
 
 The following image is what your terminal should look like successfully using scp ![image for part 5b](part6.png)
