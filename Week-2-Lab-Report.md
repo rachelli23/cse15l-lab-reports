@@ -7,7 +7,7 @@ Before you start anything, you must download Visual Studios on your computer, wh
 ### Remotely Connecting
 1. Write in the terminal $ ssh <course specific account>@ieng6.ucsd.edu
 2. Type in yes, if you recieved messages and give password when asked 
- You should see something like this in your terminal ![image for part 2](part2.png)
+ ![image for part 2](part2.png)
 
 
 ### Trying Some Commands
