@@ -12,7 +12,7 @@ The bug in this test file is that in the last part there is no brackets ```[]```
 Here is the exact part in our code that fixed this: 
 
 
-![the exact part](testfile22.png)
+![the exact part](test222.png)
 
 
 ### In Test 3 File 
