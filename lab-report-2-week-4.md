@@ -27,12 +27,12 @@ Here is the exact part in our code that fixed this:
 
 
 ### In Test 1 File 
-Here is test file 1 that gave a failure-inducing input that prompted us to make that change [test 3](https://github.com/kaijia2022/markdown-parser/blob/main/test-file1.md)
+Here is test file 1 that gave a failure-inducing input that prompted us to make that change [test 1](https://github.com/kaijia2022/markdown-parser/blob/main/test-file1.md)
 
-The bug in this test file was the extra line underneath the links. The symptom of this gave an infinite loop. To fix this bug we made an if and else statement to break once there was brackets and parenthesis with the proper name and links so there will not be an infinite loop with extra lines/spaces in the code. 
+The bug in this test file was the extra line underneath the links. The symptom of this gave an infinite loop. To fix this bug we made an if and else statement to break once there was brackets and parenthesis with the proper name and links and ignore the extra space in the code so there will not be an infinite loop 
 
 Here is the exact part in our code that fixed this: 
 
-![the exact part](exact3.png)
+![the exact part](exact1.png)
 
 
