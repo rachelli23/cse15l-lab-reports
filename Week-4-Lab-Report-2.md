@@ -9,10 +9,10 @@ Here is test file 2 that gave a failure-inducing input that prompted us to make 
 
 
 The bug in this test file is that in the last part there is no brackets ```[]``` before the link of the image. So the symptom just shows ```Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 2.``` 
+
 This is the symptom output that caused the failure for test file 2
 ```expected output: [https://www.overleaf.com/?gclid=EAIaIQobChMIgsPeyfTU9QIVmR-tBh22xwaZEAAYASAAEgLDOfD_Bw]
-
-actual output: [ok?](https://www.overleaf.com/?gclid=EAIaIQobChMIgsPeyfTU9QIVmR-tBh22xwaZEAAYASAAEgLDOfD_Bw]```
+   actual output: [ok?](https://www.overleaf.com/?gclid=EAIaIQobChMIgsPeyfTU9QIVmR-tBh22xwaZEAAYASAAEgLDOfD_Bw]```
 
 
 To fix this mistake we made an if statement there are no brackets in front of the parenthesis to ignore this bug and keep the parenthesis with the link of the image. 
