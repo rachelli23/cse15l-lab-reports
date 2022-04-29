@@ -52,7 +52,9 @@ Here is the exact part in our code that fixed this:
 Here is test file 1 that gave a failure-inducing input that prompted us to make that change [test 1](https://github.com/kaijia2022/markdown-parser/blob/main/test-file1.md)
 
 The bug in this test file was the extra line underneath the links. The symptom of this gave an infinite loop.
+
 This is the symptom output that caused the failure for test file 1
+
 ```
 Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
   at java.base/java.lang.StringLatin1.newString(StringLatin1.java:764)
