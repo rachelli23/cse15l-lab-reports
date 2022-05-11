@@ -27,9 +27,9 @@ To not continously rewrite my username and to save a lot of time I made a .ssh/c
  ### Copy whole directories with scp -r
 ![Image](MP2ieng66.png)
 
-![Image](complingieng1.png)
+![Image](cloggingieng6p1.png)
 
-
+![Image](cloggingieng6p2.png)
 
 
 
