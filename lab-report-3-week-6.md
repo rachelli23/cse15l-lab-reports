@@ -25,7 +25,7 @@ To not continously rewrite my username and to save a lot of time I made a .ssh/c
  Making a public and private key to access the Github Markdown Parser on a different device. Ran git commands to commit and push changes from my ieng6 account to the directory of Markdown Parser.  
  
  ### Copy whole directories with scp -r
-![Image](MP2ieng6.png)
+![Image](MP2ieng66.png)
 
 ![Image](complingieng1.png)
 
