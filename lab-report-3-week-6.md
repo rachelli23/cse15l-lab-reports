@@ -20,7 +20,7 @@ To not continously rewrite my username and to save a lot of time I made a .ssh/c
 
 ![Image](gitcommandgit.png)
 
- [Link for the resulting commit](https://github.com/rachelli23/Markdown-parser2/blob/main/MarkdownParse.java)
+ [Link for the resulting commit](https://github.com/rachelli23/Markdown-parser2/commit/0b084294d16fd025d386b17c84038cb29c6d1b88)
  
  Making a public and private key to access the Github Markdown Parser on a different device. Ran git commands to commit and push changes from my ieng6 account to the directory of Markdown Parser.  
  
