@@ -31,7 +31,13 @@ To not continously rewrite my username and to save a lot of time I made a .ssh/c
 
 ![Image](cloggingieng6p2.png)
 
+![Image](final3.png)
+
+![Image](final33.png)
+
+Coping from my local machine which is the markdown-parse2 directory to my remote machine which is my ieng6 account. I made a new folder called Markdown-Parse3 in my ieng6 account to have the copy of markdownparser. Then complied and ran in my ieng6 account. Ran combing scp, ;, and ssh to copy the whole directory
 
 
 
- 
+
+
