@@ -36,7 +36,7 @@ To not continously rewrite my username and to save a lot of time I made a .ssh/c
 
 ![Image](final33.png)
 
-Coping from my local machine which is the markdown-parse2 directory to my remote machine which is my ieng6 account. In the terminal I wrote, ``` scp -r .ieng6:Markdown-pa```.  I made a new folder called Markdown-Parse3 in my ieng6 account to have the copy of markdownparser. Then complied and ran in my ieng6 account. Ran combing scp, ;, and ssh to copy the whole directory
+Coping from my local machine which is the markdown-parse2 directory to my remote machine which is my ieng6 account. In the terminal I wrote, ``` scp -r .ieng6:Markdown-pa```.  I made a new folder called Markdown-Parse3 in my ieng6 account to have the copy of markdownparser. To log in my ieng6 account I wrote in the terminal ```ssh ieng6 ```. Then complied and ran in my ieng6 account. Ran combing scp, ;, and ssh to copy the whole directory.
 
 
 
