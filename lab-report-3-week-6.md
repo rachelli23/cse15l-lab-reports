@@ -8,7 +8,7 @@
  
 ![Image](scppart1.png)
 
-To not continously rewrite my username and to save a lot of time I made a .ssh/config file. Making edits in VSCode, I save time by making an alias so the computer remembers my username and I don't have to rewrite it multple times. I also copied a file using the alias, bu writing ```ssh ieng6 ``` in the terminal.  
+To not continously rewrite my username and to save a lot of time I made a .ssh/config file. Making edits in VSCode, I save time by making an alias so the computer remembers my username and I don't have to rewrite it multple times. I also copied a file using the alias, by writing ```ssh ieng6 ``` in the terminal.  
 
 
 ### Setup Github Access from ieng6
