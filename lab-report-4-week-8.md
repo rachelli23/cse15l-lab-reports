@@ -20,4 +20,4 @@ My code works for snipet 1. The reason my code works for snipet 1 because I have
 I do think there is a (<10 lines) code change that will make my program work for snipet 2. The code change would be an if statements to ignore extra brackets and parenthesis and possibly have the if statement match with one open bracket to the end bracket and same with the parenthesis. 
 
 # Question 3 
-I do think there is a (<10 lines) code change that will make my program work for snipet 3. The code change would be an if statements to ignore the extra spaces between the parenthesis and brackets. The if statement would just have to check where the next bracket or parethesis, like where it's at. 
+I do think there is a (<10 lines) code change that will make my program work for snipet 3. The code change would be an if statements to ignore the extra spaces between the parenthesis and brackets. The if statement would just have to check where the next bracket or parethesis, like where it's at.
