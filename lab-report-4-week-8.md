@@ -47,7 +47,7 @@ Here the output in the markdown-parse that was reviewed for snipet 3
 This failed!
 
 Here is the all the outputs for all 3 snipets on my MarkdownParserTest file
-![snipet1](orgioutput.png)
+![snipet1](orgiouput.png)
 
 Here is the all the outputs for all 3 snipets on the MarkdownParserTest file that was reviewed 
 ![snipet1](heroutput.png)
