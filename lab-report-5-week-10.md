@@ -1,4 +1,4 @@
-### Lab Report 5 By Rachelle Kanounji 
+# Lab Report 5 By Rachelle Kanounji 
 
 I found the test with different results through vimdiff. 
 
@@ -16,7 +16,7 @@ Here is what the file should produce by using VScode preview
 Here is the code that should be fixed
 ![495](fiiii.png)
 
-# Other Test File 
+### Other Test File 
 [Link of test 496](https://github.com/nidhidhamnani/markdown-parser/blob/c7680904bc390e500c7c98e4789d1410249c2982/test-files/496.md)
 
 Here is an image of the vimdiff file comparision of 496.md; which is ran through the my ```MarkdownParse.java``` and the provided ```MarkdownParse.java``` 
